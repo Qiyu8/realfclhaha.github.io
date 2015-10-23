@@ -1,11 +1,11 @@
 # Site settings
-title: xiaoyu33 | 小雨的博客
-description: "xiaoyu33's blog, build with Jekyll."
-url: "http://xiaoyu33.github.io"
+title: 慧心 | 博客
+description: "慧心's blog, build with github."
+url: "http://RealFangChunLin.github.io"
 author:
-  name: "xiaoyu33"
-  email: "apple_pxy@163.com"
-  url: "http://xiaoyu33.github.io"
+  name: "RealFangChunLin"
+  email: "getfs1@163.com"
+  url: "http://RealFangChunLin.github.io"
 
 # Build settings
 baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
@@ -26,7 +26,7 @@ defaults:
       layout: "post"
 
 # Custom variables
-version: "33"
+version: "1.0"
 
 # Options
 custom_header: false
