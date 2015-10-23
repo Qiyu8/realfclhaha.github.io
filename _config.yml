@@ -1,0 +1,34 @@
+# Site settings
+title: xiaoyu33 | 小雨的博客
+description: "xiaoyu33's blog, build with Jekyll."
+url: "http://xiaoyu33.github.io"
+author:
+  name: "xiaoyu33"
+  email: "apple_pxy@163.com"
+  url: "http://xiaoyu33.github.io"
+
+# Build settings
+baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 4
+paginate_path: /page:num/
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Custom variables
+version: "33"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
